@@ -1,0 +1,21 @@
+.ButtonBack {
+    margin-top: 2rem;
+    text-align: center;
+  
+    button {
+      background-color: transparent;
+      border: 1px solid #827d7d;
+      color: #827d7d;
+      padding: 0.5rem 1.2rem;
+      border-radius: 8px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+  
+      &:hover {
+        background: linear-gradient(to right, #ffffff, #c08ae1, #780c73);
+        color: #1a1a1a;
+      }
+    }
+  }

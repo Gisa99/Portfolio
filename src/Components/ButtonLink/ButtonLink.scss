@@ -1,0 +1,14 @@
+button{
+    background-color: #780c73;
+    border: none;
+    border-radius: 8px;
+    color: #fbf0fa;
+    padding: 0.5rem 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover {
+    background: linear-gradient(to right, #ffffff, #c08ae1, #780c73);
+    color: #1a1a1a;
+    border: none;
+  }
+  }

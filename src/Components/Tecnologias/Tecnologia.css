@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../../public/Fontes/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: sans-serif;
+  color: #aaa9a9;
+  background: #0C0C0C;
+}
+
+.tecnologias {
+  background-color: #1a1a1a;
+  width: 100%;
+  max-height: 550px;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tecnologias h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  background: linear-gradient(to right, #ffffff, #c08ae1, #780c73);
+  letter-spacing: 0.2px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tecnologias .cards {
+  width: 50%;
+  max-width: 1100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .tecnologias .cards {
+    width: 55%;
+  }
+}
+.tecnologias .card {
+  width: 120px;
+  height: 150px;
+  background-color: #0C0C0C;
+  border: 1px solid #827d7d;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tecnologias .card .icon {
+  font-size: 2.5rem;
+  color: #827d7d;
+}
+.tecnologias .card .name {
+  margin-top: 0.5rem;
+  color: #827d7d;
+}/*# sourceMappingURL=tecnologia.css.map */

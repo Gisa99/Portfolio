@@ -1,0 +1,68 @@
+.Projetos {
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-height: 550px;
+}
+.Projetos h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  background: linear-gradient(to right, #ffffff, #c08ae1, #780c73);
+  letter-spacing: 0.2px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Projetos .cards {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.Projetos .cards .card {
+  border: 1px solid #827d7d;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
+.Projetos .cards .card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px 8px 0 0;
+}
+.Projetos .cards .card h4 {
+  text-align: center;
+  margin-top: 0.3rem;
+  background: linear-gradient(to right, #ffffff, #a71da0);
+  letter-spacing: 0.2px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Projetos .cards .card .descricao {
+  font-size: 0.8rem;
+  font-weight: 300;
+  width: 90%;
+  text-align: center;
+  padding: 0.5rem;
+}
+.Projetos .cards .card button {
+  margin-bottom: 1rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #827d7d;
+  color: #827d7d;
+  width: 80%;
+  background-color: #0C0C0C;
+  transition: 0.5s ease-out;
+  cursor: pointer;
+}
+.Projetos .cards .card button:hover {
+  background: linear-gradient(to right, #ffffff, #780c73);
+  border: none;
+  color: #0C0C0C;
+  font-weight: 500;
+}/*# sourceMappingURL=Projetos.css.map */

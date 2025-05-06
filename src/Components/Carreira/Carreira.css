@@ -1,0 +1,28 @@
+.carreira {
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.carreira h2 {
+  background: linear-gradient(to right, #ffffff, #c08ae1, #780c73);
+  letter-spacing: 0.2px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.carreira .conteudo {
+  width: 80%;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.carreira .conteudo img {
+  width: 500px;
+}
+.carreira .conteudo .texto {
+  display: flex;
+  justify-content: center;
+  width: 35%;
+}/*# sourceMappingURL=Carreira.css.map */

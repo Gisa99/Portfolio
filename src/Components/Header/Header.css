@@ -1,0 +1,114 @@
+section {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+section .right_bar .pattern1 {
+  width: 300px;
+  height: 350px;
+  margin-left: -5rem;
+}
+section .meio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8%;
+  height: 100%;
+}
+section .meio .perfil {
+  width: 242px;
+  height: 242px;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+  background: radial-gradient(circle, rgba(186, 0, 255, 0.6), rgb(0, 0, 0));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -8px 0px 15px 8px #780c73;
+}
+section .meio .perfil img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+section .meio .saudacao {
+  font-family: "Fira Code", monospace;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  overflow: hidden;
+  border-right: 2px solid #fff;
+  white-space: nowrap;
+  width: 0;
+  animation: typing 3s steps(22) 1s forwards, blink 0.7s step-end infinite;
+}
+section .meio .titulo {
+  font-weight: 700;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  background: linear-gradient(to right, #ffffff, #c08ae1, #780c73);
+  letter-spacing: 0.2px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+  transform: translateY(40px);
+  animation: slideUp 1s ease-out 4s forwards;
+}
+section .meio .texto {
+  width: 55%;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(40px);
+  animation: slideUp 1s ease-out 5s forwards;
+}
+
+.left_sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: self-end;
+  justify-content: space-between;
+}
+.left_sidebar .pattern2 {
+  width: 250px;
+  height: 350px;
+  align-self: flex-end;
+}
+.left_sidebar .redes {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.2rem;
+  margin-right: 2rem;
+  align-items: center;
+}
+.left_sidebar .redes .curriculo {
+  font-size: 1rem;
+  text-decoration: none;
+}
+.left_sidebar .redes a {
+  font-size: 1.5rem;
+  color: #827d7d;
+  transition: transform 0.2s;
+}
+.left_sidebar .redes a:hover {
+  transform: scale(1.2);
+  color: #780c73;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 24ch;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}/*# sourceMappingURL=Header.css.map */

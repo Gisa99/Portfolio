@@ -1,0 +1,23 @@
+.redes {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.2rem;
+    margin-right: 2rem;
+    align-items: center;
+
+    .curriculo{
+        font-size: 1rem;
+        text-decoration: none;
+    }
+  
+    a {
+      font-size: 1.5rem;
+      color: #827d7d;
+      transition: transform 0.2s;
+  
+      &:hover {
+        transform: scale(1.2);
+        color: #780c73;
+      }
+    }
+  }
